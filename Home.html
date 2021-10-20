@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+
+		<!-- AOS CDN -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<!-- Bootstrap CDN -->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		/>
+
+		<!-- Custom style sheet -->
+		<link rel="stylesheet" href="Home.css" />
+
+		<!-- Font Awesome icons -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<!-- jQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+
+	<body data-spy="scroll" data-target=".header__nav" data-offset="70">
+		<header class="header">
+			<div class="header__container max-width">
+				<div class="header__left">
+					<h1 class="header__logo">Portfo<span>lio</span></h1>
+				</div>
+
+				<div class="header__right">
+					<nav class="navbar header__nav">
+						<ul class="header__nav__list">
+							<li class="nav-item">
+								<a href="#home" class="nav-link header__nav__link">Home</a>
+							</li>
+							<li class="nav-item">
+								<a href="#about" class="nav-link header__nav__link">About</a>
+							</li>
+							<li class="nav-item">
+								<a href="#skill" class="nav-link header__nav__link">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a href="#project" class="nav-link header__nav__link"
+									>Projects</a
+								>
+							</li>
+							<li class="nav-item">
+								<a href="#contact" class="nav-link header__nav__link"
+									>Contact</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__bars">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+		</header>
+
+		<section class="home" id="home">
+			<div class="home__container max-width">
+				<h3 class="home__hellotxt">Hello, my name is</h3>
+				<h1 class="home__pname">Nishidh Jain</h1>
+				<h2 class="home__job">I'm a Web Developer</h2>
+				<!-- <a href="#" class="home__btn">Download CV</a> -->
+			</div>
+		</section>
+
+		<main class="about" id="about">
+			<div class="about__container max-width">
+				<div class="section__title__space"></div>
+				<div class="about__title__box" data-aos="zoom-in">
+					<h2 class="about__title">About Me</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="section__title__space"></div>
+
+				<div class="about__body flex--container">
+					<div class="section__left" data-aos="zoom-in-up">
+						<center>
+							<img src="NMJ2.jpg" alt="NishidhJain" class="about__img" />
+						</center>
+					</div>
+					<div class="section__right" data-aos="zoom-in-up">
+						<h3 class="about__header">I'm Nishidh and I'm a Web Developer</h3>
+						<p class="about__info">
+							I am student at Charotar University Of Science And Technology and
+							studying Information Technology . I'm passionate about learning
+							new skills in web development and specially in frontend part. I
+							like to explore new things everyday so that, I can become a better
+							developer. I enjoy creating cool website and try my best to create
+							new websites with latest design trends.
+						</p>
+					</div>
+				</div>
+				<div class="section__bottom__space"></div>
+			</div>
+		</main>
+
+		<section class="skill" id="skill">
+			<div class="skill__container max-width">
+				<div class="section__title__space"></div>
+				<div class="skill__title__box" data-aos="zoom-in">
+					<h2 class="skill__title">Skills</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="section__title__space"></div>
+
+				<div class="section__body flex--container">
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img src="HTML5_Logo.jpg" alt="HTML" class="skill__logo" />
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">HTML5</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 90%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img src="CSS3_logo.jpg" alt="CSS" class="skill__logo" />
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">CSS3</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 80%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img
+								src="JavaScript-Logo.jpg"
+								alt="javascript"
+								class="skill__logo"
+							/>
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">JavaScript</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 70%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img
+								src="bootstrap-logo.png"
+								alt="bootstrap"
+								class="skill__logo"
+							/>
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">Bootstrap</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 70%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img src="react-logo.jpg" alt="react" class="skill__logo" />
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">React JS</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 50%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img
+								src="https://equestsolutions.net/wp-content/uploads/2014/08/php-logo.jpg"
+								alt="php"
+								class="skill__logo"
+							/>
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">PHP</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 50%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img src="c++.jpg" alt="c++" class="skill__logo" />
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">C++</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 50%"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill__detail" data-aos="zoom-out">
+						<div class="skill__img">
+							<img src="python.jpg" alt="python" class="skill__logo" />
+						</div>
+						<div class="skill__info">
+							<h3 class="skill__name">Python3</h3>
+							<div class="progress">
+								<div class="progress-bar bg-danger" style="width: 50%"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section__bottom__space"></div>
+			</div>
+		</section>
+
+		<section class="project" id="project">
+			<div class="project__container max-width">
+				<div class="section__title__space"></div>
+				<div class="project__title__box" data-aos="zoom-in">
+					<h2 class="project__title">Projects</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="section__title__space"></div>
+
+				<!-- <div class="project__body flex--container"> -->
+				<div class="project__body">
+					<div class="project__detail" data-aos="zoom-in">
+						<div class="project__top">
+							<img
+								src="github-user-dashboard.png"
+								alt="portfolio"
+								class="project__img"
+							/>
+						</div>
+						<div class="project__bottom">
+							<h3 class="project__name">
+								<a
+									href="https://github-users-dashboard.netlify.app/"
+									target="__blank"
+									>Github User Dashboard</a
+								>
+							</h3>
+						</div>
+					</div>
+
+					<div class="project__detail" data-aos="zoom-in">
+						<div class="project__top">
+							<img
+								src="Quiz-Website.jpg"
+								alt="portfolio"
+								class="project__img"
+							/>
+						</div>
+						<div class="project__bottom">
+							<h3 class="project__name">Quizzz Website</h3>
+						</div>
+					</div>
+
+					<div class="project__detail" data-aos="zoom-in">
+						<div class="project__top">
+							<img
+								src="todo-website.PNG"
+								alt="portfolio"
+								class="project__img"
+							/>
+						</div>
+						<div class="project__bottom">
+							<h3 class="project__name">
+								<a href="https://todo-website.netlify.app" target="__blank"
+									>Todo Website</a
+								>
+							</h3>
+						</div>
+					</div>
+
+					<div class="project__detail" data-aos="zoom-in">
+						<div class="project__top">
+							<img
+								src="Voice-assistant.PNG"
+								alt="portfolio"
+								class="project__img"
+							/>
+						</div>
+						<div class="project__bottom">
+							<h3 class="project__name">Voice Assistant</h3>
+						</div>
+					</div>
+
+					<div class="project__detail" data-aos="zoom-in">
+						<div class="project__top">
+							<img
+								src="Num-Plate-Detection.PNG"
+								alt="portfolio"
+								class="project__img"
+							/>
+						</div>
+						<div class="project__bottom">
+							<h3 class="project__name">Number Plate Detection</h3>
+						</div>
+					</div>
+				</div>
+				<div class="section__bottom__space"></div>
+			</div>
+		</section>
+
+		<section class="contact" id="contact">
+			<div class="contact__container max-width">
+				<div class="section__title__space"></div>
+				<div class="contact__title__box" data-aos="zoom-in">
+					<h2 class="contact__title">Contact</h2>
+					<div class="underline"></div>
+				</div>
+				<div class="section__title__space"></div>
+
+				<div class="contact__body flex--container">
+					<div class="section__left" data-aos="zoom-in">
+						<div class="contact__info">
+							<div class="contact__icon">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="contact__detail">
+								<h3 class="contact__type">E-mail</h3>
+								<p class="contact__text">
+									<a href="mailto:nishidhjain909@gmail.com"
+										>nishidhjain909@gmail.com</a
+									>
+								</p>
+							</div>
+						</div>
+						<div class="contact__info">
+							<div class="contact__icon">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+							</div>
+							<div class="contact__detail">
+								<h3 class="contact__type">Mobile Number</h3>
+								<p class="contact__text">
+									<a href="tel:9974937311">+91-9974937311</a>
+								</p>
+							</div>
+						</div>
+						<div class="contact__info">
+							<div class="contact__icon">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+							</div>
+							<div class="contact__detail">
+								<h3 class="contact__type">Address</h3>
+								<p class="contact__text">
+									5/ Dharti Society, B/h Durga Park, Pij Road, Nadiad - 387002
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="section__right" data-aos="zoom-in">
+						<h3 class="contact__form__title">Get in touch</h3>
+						<form action="" name="contact-form" netlify class="contact__form">
+							<div class="form-group">
+								<input
+									type="text"
+									placeholder="*Full Name"
+									required
+									name="full-name"
+									class="form-control"
+								/>
+							</div>
+
+							<div class="form-group">
+								<input
+									type="email"
+									placeholder="*Email"
+									required
+									name="email"
+									class="form-control"
+								/>
+							</div>
+
+							<div class="form-group">
+								<input
+									type="text"
+									placeholder="*Subject"
+									required
+									name="subject"
+									class="form-control"
+								/>
+							</div>
+
+							<div class="form-group">
+								<textarea
+									rows="10"
+									placeholder="*Message"
+									required
+									name="message"
+									class="form-control"
+								></textarea>
+							</div>
+
+							<div class="form-group">
+								<input
+									type="submit"
+									value="Send Message"
+									class="btn btn-outline-danger btn-lg"
+								/>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="section__bottom__space"></div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__container max-width">
+				<div class="footer__icon__part">
+					<ul class="footer__icons__list">
+						<li>
+							<a
+								href="https://github.com/NishidhJain"
+								target="__blank"
+								class="footer__icon__link"
+							>
+								<i class="fa fa-github" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a
+								target="__blank"
+								href="https://www.linkedin.com/in/nishidh-jain-a427961a4"
+								class="footer__icon__link"
+								><i class="fa fa-linkedin" aria-hidden="true"></i
+							></a>
+						</li>
+						<!-- <li><a href="" class="footer__icon__link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li> -->
+					</ul>
+				</div>
+				<div class="footer__copyright">
+					<p>
+						&copy; Copyright
+						<script>
+							document.write(new Date().getFullYear());
+						</script>
+						&nbsp; | &nbsp; Nishidh Jain
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<div class="scroll__to__top">
+			<i class="fa fa-arrow-up" aria-hidden="true"></i>
+		</div>
+
+		<!-- JS file -->
+		<script src="main.js"></script>
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+		<!-- AOS Script -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: 180,
+				duration: 800,
+				once: true,
+			});
+		</script>
+	</body>
+</html>
